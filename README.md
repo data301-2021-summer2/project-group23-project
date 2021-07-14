@@ -16,9 +16,8 @@ Details for Milestone are available on Canvas (left sidebar, Course Project) or 
 
 ## Team Members
 
-- Person 1: one sentence about you!
-- Person 2: one sentence about you!
-- Person 3: one sentence about you!
+- Person 1: My name is David Olson and I am a 4th year management student. I am pursuing the accountant route and am interested in finance.
+
 
 ## References
 
