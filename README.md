@@ -17,7 +17,7 @@ As a management student, I am interested in finance, so that is why I have chose
 
 ## Describe your dataset in about 150-200 words
 
-{I have two data sets. One is daily TSLA stock data from 2010-2020, the other is daily SPY stock data from 1993-2020. Each set has 7 columns. The TSLA data set has roughly ~3650 rows and the SPY data set has roughly ~9855. I will likely narrow the focus to certain timeframes/questions in the coming weeks as I learn more about how to clean and process the data. }
+{I have two data sets. One is daily TSLA stock data from 2010-2020, the other is daily SPY stock data from 1993-2020. Each set has 7 columns. The TSLA data set has roughly ~3650 rows and the SPY data set has roughly ~9855. I will likely narrow the focus to certain timeframes/questions in the coming weeks as I learn more about how to clean and process the data. The data is from kaggle, but the kaggle users used yahoofinance for the data.}
 
 ## Team Members
 
