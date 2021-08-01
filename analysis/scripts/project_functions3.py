@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+# In[12]:
 
 
 import pandas as pd
@@ -9,28 +9,44 @@ import numpy as np
 import seaborn as sns
 
 
-# In[4]:
+# In[19]:
 
 
+#function 3: merge the cleaned dataframes
+from scripts import project_functions,project_functions2
 spy = "~/project-group23-project/data/raw/spy.csv"
 tsla = "~/project-group23-project/data/raw/TSLA.csv"
-# Making a function out of the method chaining
-#function 1 Goal: clean, rename, drop necessary rows/columns from 2 dataframes.
+x=project_functions.load_and_clean_tsla_spy(spy,tsla)
 
+spydf=x[0]
 
-def load_and_clean_tsla_spy(spy,tsla):
-    tsladf = (pd.read_csv(tsla, parse_dates=["Date"])
-              .drop(columns=["High","Low","Adj Close"])
-              .rename(columns={"Open":"open_tsla","Close":"close_tsla","Volume":"vol_tsla"})
-              .reset_index(drop=True))
+y=project_functions2.remove_dates(spydf)
+
+spydf=y
+tsladf=x[1]
+tslaspymerged=(spydf,tsladf)
+
+def merge_n_round(tslaspymerged):
     
-    spydf = (pd.read_csv(spy, parse_dates=["Date"])
-             .drop(columns=["High","Low","Adj Close"])
-             .rename(columns={"Open":"open_spy","Close":"close_spy","Volume":"vol_spy"})
-             .reset_index(drop=True))
-    return (spydf,tsladf)
+    tslaspymerged = (pd.DataFrame(pd.merge(spydf,tsladf, how = 'inner'))
+                     .round(decimals=2))
+    return tslaspymerged
+z=merge_n_round(tslaspymerged)
 
-x=load_and_clean_tsla_spy(spy,tsla)
+
+    
+
+        
+
+
+  
+
+
+   
+
+
+
+
 
 #SOURCES USED:
 #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html
@@ -39,6 +55,13 @@ x=load_and_clean_tsla_spy(spy,tsla)
 #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.reset_index.html
 #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html
 #https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.loc.html
+#https://stackoverflow.com/questions/41513324/python-pandas-drop-rows-of-a-timeserie-based-on-time-range
+
+
+# In[20]:
+
+
+
 
 
 # In[ ]:
