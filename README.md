@@ -4,20 +4,25 @@
 ## Milestones
 
 #### Milestone 1: Find Dataset
+
 #### Milestone 2: Data Analysis
+
 #### Milestone 3: Address Feedback and Refine Project
+
 #### Milestone 4: Present your Dashboard!
 
 ## Describe your topic/interest in about 150-200 words
 
-{I will be comparing and analyzing the financial data of TSLA and SPY. The variables that I plan on analyzing include: Date, Open, High, Low, Close, Adj. Close, and Volume. Potential questions I plan on answering are: "Would you have had a better return from TSLA or SPY over a 1/5/10 year period, and if so what years?", 
-"Analysis of volume increase/decrease SPY/TSLA", 
-"Differences in volatility between the two share prices/volume." 
+{I will be comparing and analyzing the financial data of TSLA and SPY. The variables that I plan on analyzing include: Date, Open, Close and Volume. 
+Potential questions I plan on answering are: 
+"Daygain analysis from TSLA/SPY", 
+"Analysis of volume increase/decrease SPY/TSLA - is there any correlations?", 
+"Differences in volume/share price by date for SPY/TSLA"
 As a management student, I am interested in finance, so that is why I have chosen this topic.}
 
 ## Describe your dataset in about 150-200 words
 
-{I have two data sets. One is daily TSLA stock data from 2010-2020, the other is daily SPY stock data from 1993-2020. Each set has 7 columns. The TSLA data set has roughly ~3650 rows and the SPY data set has roughly ~9855. I will likely narrow the focus to certain timeframes/questions in the coming weeks as I learn more about how to clean and process the data. The data is from kaggle, but the kaggle users used yahoofinance for the data.}
+{I have two data sets. One is daily TSLA stock data from 2010-2020, the other is daily SPY stock data from 1993-2020. Each set has 7 columns. The TSLA data set has roughly ~3650 rows and the SPY data set has roughly ~9855. I narrowed the focus to 2010-2020. The data is from kaggle, but the kaggle users used yahoofinance for the data.}
 
 ## Team Members
 
