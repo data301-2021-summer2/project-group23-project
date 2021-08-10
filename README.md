@@ -10,6 +10,7 @@
 #### Milestone 3: Address Feedback and Refine Project
 
 #### Milestone 4: Present your Dashboard!
+##### Important links: [EDA Task 3](https://github.com/data301-2021-summer2/project-group23-project/blob/main/analysis/EDA(Task3).ipynb), [Task 4](https://github.com/data301-2021-summer2/project-group23-project/blob/main/analysis/TASK4.ipynb), [milestone 1](https://github.com/data301-2021-summer2/project-group23-project/blob/main/analysis/milestone1.ipynb), [Original Data](https://github.com/data301-2021-summer2/project-group23-project/tree/main/data/raw), [Processed Data](https://github.com/data301-2021-summer2/project-group23-project/tree/main/data/processed), [Method-Chaining-Functions](https://github.com/data301-2021-summer2/project-group23-project/blob/main/data/processed/FunctionWithMC.ipynb)
 
 ## Describe your topic/interest in about 150-200 words
 
