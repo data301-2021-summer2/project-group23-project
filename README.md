@@ -1,7 +1,7 @@
 # Group 23 - {SPY ETF vs. TSLA Stock Data Analysis}
 
 
-## Milestones
+## Milestones - For a detailed description and guidance for this project, see the [Analysis Pipeline](https://github.com/data301-2021-summer2/project-group23-project/blob/main/data/processed/AnalysisPipeline.ipynb)
 
 #### Milestone 1: Find Dataset
 
