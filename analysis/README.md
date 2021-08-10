@@ -8,5 +8,5 @@ This directory contains jupyter notebooks for:
 ---
 ### Milestone 3: Will update Milestone 2 with feedback from T.A's
 ---
-### Milestone 4: wip
+
 
